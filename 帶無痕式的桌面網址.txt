@@ -1,0 +1,33 @@
+https://github.com/karta138285454-bit
+
+
+要讓桌面捷徑「點開直接就是無痕」＋「自動直達你的倉庫網址」，請依照以下步驟直接修改：
+
+
+操作步驟（以桌面現有的 Chrome 捷徑為例）
+1.	複製或準備捷徑：
+在桌面現有的 Chrome 捷徑上按 滑鼠右鍵 → 點選 「內容」。
+
+2.	切換到「捷徑」分頁。
+
+3.	修改「目標 (T)」欄位：
+將原本裡面的內容清空，或者移到最末端，修改成以下這一整行文字（注意空格與前後引號）：
+
+•	若使用 Google Chrome：
+
+Plaintext
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --incognito "https://github.com/karta138285454-bit"
+(如果系統跳出路徑錯誤，通常是 32 位元路徑，請改用："C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --incognito "[https://github.com/karta138285454-bit](https://github.com/karta138285454-bit)")
+
+
+•	若使用 Microsoft Edge：
+
+Plaintext
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" -inprivate "https://github.com/karta138285454-bit"
+4.	點擊右下角 「套用」，再點 「確定」。
+
+5.	將這個捷徑重新命名為：工程代碼倉庫。
+
+測試成果
+雙擊桌面這個圖示，Windows 就會直接跳出全黑底色的無痕視窗，並且畫面正中央直接載入你的 GitHub 倉庫頁面。查完檔案直接按右上角叉叉關閉，電腦不留任何快取或歷史紀錄。
+
